@@ -1,0 +1,23 @@
+<vm-class>
+    <vm-function>
+        <command>function</command>
+        <label>cc.ff</label>
+        <number>2</number>
+    </vm-function>
+    <vm-stack>
+        <command>push</command>
+        <segment>constant</segment>
+        <offset>5</offset>
+    </vm-stack>
+    <vm-stack>
+        <command>push</command>
+        <segment>static</segment>
+        <offset>6</offset>
+    </vm-stack>
+    <vm-operator>
+        <command>add</command>
+    </vm-operator>
+    <vm-operator>
+        <command>return</command>
+    </vm-operator>
+</vm-class>

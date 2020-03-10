@@ -1,0 +1,74 @@
+|-----------------------------------|
+|    VM Commands   | Tests | Passed |
+|-----------------------------------|
+| add              |     5 |      5 |
+| and              |     5 |      5 |
+| eq               |     9 |      9 |
+| gt               |     9 |      9 |
+| lt               |     7 |      7 |
+| neg              |    13 |     13 |
+| not              |    13 |     13 |
+| or               |     9 |      9 |
+| sub              |    30 |     30 |
+| return           |    30 |     30 |
+| if-goto          |    11 |     11 |
+| label            |     8 |      8 |
+| call             |    12 |     12 |
+| function f 0     |     1 |      1 |
+| function f 1     |     1 |      1 |
+| function f 2     |     1 |      1 |
+| function f 3     |     1 |      1 |
+| function f 4     |     1 |      1 |
+| function f 5     |     2 |      2 |
+| function f 6     |     1 |      1 |
+| function f 7     |     1 |      1 |
+| function f 8     |     1 |      1 |
+| function f 9     |     1 |      1 |
+| function f 10    |     1 |      1 |
+| function f 35    |     1 |      1 |
+| pop argument 0   |     6 |      6 |
+| pop argument 1   |     6 |      6 |
+| pop argument 2+  |    30 |     30 |
+| pop local 0      |     6 |      6 |
+| pop local 1      |     6 |      6 |
+| pop local 2+     |    30 |     30 |
+| pop pointer 0    |     6 |      6 |
+| pop pointer 1    |     6 |      6 |
+| pop static 0     |     6 |      6 |
+| pop static 1     |     6 |      6 |
+| pop static 2+    |    30 |     30 |
+| pop temp 0       |     6 |      6 |
+| pop temp 1       |     6 |      6 |
+| pop temp 2+      |    36 |     36 |
+| pop that 0       |     6 |      6 |
+| pop that 1       |     6 |      6 |
+| pop that 2+      |    30 |     30 |
+| pop this 0       |     6 |      6 |
+| pop this 1       |     6 |      6 |
+| pop this 2+      |    30 |     30 |
+| push argument 0  |     6 |      6 |
+| push argument 1  |     6 |      6 |
+| push argument 2+ |    30 |     30 |
+| push constant 0  |     6 |      6 |
+| push constant 1  |     6 |      6 |
+| push constant 2+ |    30 |     30 |
+| push local 0     |     6 |      6 |
+| push local 1     |     6 |      6 |
+| push local 2+    |    30 |     30 |
+| push pointer 0   |     6 |      6 |
+| push pointer 1   |     6 |      6 |
+| push static 0    |     6 |      6 |
+| push static 1    |     6 |      6 |
+| push static 2+   |    30 |     30 |
+| push temp 0      |     6 |      6 |
+| push temp 1      |     6 |      6 |
+| push temp 2+     |    36 |     36 |
+| push that 0      |     6 |      6 |
+| push that 1      |     6 |      6 |
+| push that 2+     |    30 |     30 |
+| push this 0      |     6 |      6 |
+| push this 1      |     6 |      6 |
+| push this 2+     |    30 |     30 |
+|-----------------------------------|
+|      Totals      |   756 |    756 |
+|-----------------------------------|

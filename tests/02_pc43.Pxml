@@ -1,0 +1,12 @@
+<vm-class>
+    <vm-function>
+        <command>function</command>
+        <label>cc.ff</label>
+        <number>0</number>
+    </vm-function>
+    <vm-stack>
+        <command>push</command>
+        <segment>constant</segment>
+        <offset>43</offset>
+    </vm-stack>
+</vm-class>

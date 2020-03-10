@@ -1,0 +1,5 @@
+function cc.ff 2
+push constant 5
+push static 6
+add
+return

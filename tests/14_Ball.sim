@@ -1,0 +1,44 @@
+|-----------------------------------|
+|    VM Commands   | Tests | Passed |
+|-----------------------------------|
+| add              |    13 |     13 |
+| and              |     2 |      2 |
+| eq               |     6 |      6 |
+| gt               |     2 |      2 |
+| lt               |    10 |     10 |
+| neg              |     3 |      3 |
+| not              |     6 |      6 |
+| or               |     1 |      1 |
+| sub              |    10 |     10 |
+| return           |    10 |     10 |
+| goto             |    30 |     30 |
+| if-goto          |    17 |     17 |
+| label            |    47 |     47 |
+| call             |    30 |     30 |
+| function f 0     |     8 |      8 |
+| function f 3     |     1 |      1 |
+| function f 5     |     1 |      1 |
+| pop local 0      |     8 |      8 |
+| pop local 1      |     8 |      8 |
+| pop local 2+     |     6 |      6 |
+| pop pointer 0    |    10 |     10 |
+| pop temp 0       |    10 |     10 |
+| pop this 0       |     7 |      7 |
+| pop this 1       |     7 |      7 |
+| pop this 2+      |    21 |     21 |
+| push argument 0  |    10 |     10 |
+| push argument 1  |     7 |      7 |
+| push argument 2+ |     7 |      7 |
+| push constant 0  |    15 |     15 |
+| push constant 1  |     4 |      4 |
+| push constant 2+ |    33 |     33 |
+| push local 0     |     7 |      7 |
+| push local 1     |     8 |      8 |
+| push local 2+    |    13 |     13 |
+| push pointer 0   |     8 |      8 |
+| push this 0      |    15 |     15 |
+| push this 1      |    13 |     13 |
+| push this 2+     |    30 |     30 |
+|-----------------------------------|
+|      Totals      |   444 |    444 |
+|-----------------------------------|

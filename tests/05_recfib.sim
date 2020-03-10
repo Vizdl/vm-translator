@@ -1,0 +1,21 @@
+|-----------------------------------|
+|    VM Commands   | Tests | Passed |
+|-----------------------------------|
+| add              |     1 |      1 |
+| lt               |     1 |      1 |
+| sub              |     2 |      2 |
+| return           |     3 |      3 |
+| goto             |     1 |      1 |
+| if-goto          |     1 |      1 |
+| label            |     2 |      2 |
+| call             |     3 |      3 |
+| function f 0     |     1 |      1 |
+| function f 1     |     1 |      1 |
+| pop local 0      |     1 |      1 |
+| push argument 0  |     3 |      3 |
+| push constant 0  |     1 |      1 |
+| push constant 1  |     2 |      2 |
+| push constant 2+ |     3 |      3 |
+|-----------------------------------|
+|      Totals      |    26 |     26 |
+|-----------------------------------|

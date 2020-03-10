@@ -1,0 +1,26 @@
+function Main.recfib 0
+push argument 0
+push constant 2
+lt
+if-goto IF_TRUE0
+goto IF_FALSE0
+label IF_TRUE0
+push constant 1
+return
+label IF_FALSE0
+push argument 0
+push constant 1
+sub
+call Main.recfib 1
+push argument 0
+push constant 2
+sub
+call Main.recfib 1
+add
+return
+function Main.main 1
+push constant 7
+call Main.recfib 1
+pop local 0
+push constant 0
+return

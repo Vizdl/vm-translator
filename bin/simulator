@@ -1,0 +1,64 @@
+#!/bin/bash
+
+# bash script to execute ../lib/${CS_ARCH}/bin/${CMD} where
+# CS_ARCH is to be determined, hopefully macos or cats
+# CMD is the basename of this script
+
+# script checks we are on a 64-bit system before doing anything else
+
+# check we on a 64-bit OS
+test `getconf LONG_BIT` != "64" && echo "Sorry, this only runs on a 64-bit operating system!" && exit -1
+
+# break open a pathname to our command - the original must include '/' somewhere
+complete_fullpath()
+{
+    original="${1}"
+    architecture="${2}"
+
+    # executable's name - drop everything up to the last /
+    command="${original##*/}"
+
+    # parent directory's path - drop everything after the last /
+    fullpath="${original%/*}"
+
+    # fullpath must be shorter than original if it contained a directory, ie /
+    if [ "${fullpath}" == "${original}" ] ; then
+        echo "Cannot find the architecture specific version of ${original}"
+        echo "A directory name must be included in the pathname used to execute it"
+        exit -1
+    fi
+
+    # work out full path to command's directory using cd and pwd in a sub-shell
+    fullpath=$( (cd "${fullpath}" && pwd) )
+
+    # last component of the directory name must be bin
+    binname="${fullpath##*/}"
+    if [ "x${binname}" != "xbin" ] ; then
+        echo "Cannot find the architecture specific version of ${original}"
+        exit -1
+    fi
+
+    # remove /bin from the directory name - drop everything after the last /
+    fullpath="${fullpath%/*}"
+
+    # construct final path
+    fullpath="${fullpath}/lib/${architecture}/bin/${command}"
+
+    # check that it is executable
+    if [ ! -x "${fullpath}" ] ; then  
+        echo "Cannot find the architecture specific version of ${original}"
+        echo "Have you run make?"
+        exit -1
+    fi
+}
+
+# if on a Mac architecture is macos, otherwise cats
+if test -x /usr/bin/uname && test `/usr/bin/uname -s` == "Darwin" ; then
+    architecture="macos"
+else
+    architecture="cats"
+fi
+
+complete_fullpath "${0}" "${architecture}"
+
+exec "${fullpath}" "${@}"

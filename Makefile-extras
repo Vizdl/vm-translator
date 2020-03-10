@@ -1,0 +1,37 @@
+## if CS_ARCH already set assume this is a repeat include and ignore it
+ifeq (x$(CS_ARCH),x)
+
+# check that we are on a 64-bit OS
+ifneq (64,$(shell getconf LONG_BIT))
+    $(error CSTools will only run on a 64-bit Linux operating system)
+endif
+
+# If we are running on MacOS uname printed Darwin
+ifeq (Darwin,$(shell test -x /usr/bin/uname && /usr/bin/uname -s))
+    $(info Compiling/Running on MacOS)
+    $(info Please check that this compiles and runs on a CAT suite system before submission.)
+    export CXX=g++
+    export CS_ARCH=macos
+    export CX_ARCH=cats
+
+else ifeq (4.8.5,$(shell test -x /usr/bin/g++ && /usr/bin/g++ --version | head -1 | cut -f 3 -d ' '))
+    #$(info export CXX=/usr/bin/g++)
+    export CXX=/usr/bin/g++
+    export CS_ARCH=cats
+    export CX_ARCH=macos
+
+# Just in case its ubuntu and g++ 4.8.5 is actually /usr/bin/g++-4.8
+else ifeq (4.8.5,$(shell test -x /usr/bin/g++-4.8 && /usr/bin/g++-4.8 --version | head -1 | cut -f 3 -d ' '| cut -f 1,1 -d '-'))
+    $(info export CXX=/usr/bin/g++-4.8)
+    $(info Please check that this compiles and runs on a CAT suite system before submission.)
+    export CXX=/usr/bin/g++-4.8
+    export CS_ARCH=cats
+    export CX_ARCH=macos
+else
+    $(info Set environment variable CXX to the name of your g++ 4.8.5 compiler)
+    $(info To install g++ 4.8.5 on Ubuntu run: apt-get install g++-4.8)
+    $(error Cannot find your version 4.8.5 compatible g++ compiler)
+
+endif
+
+endif

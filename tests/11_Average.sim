@@ -1,0 +1,29 @@
+|-----------------------------------|
+|    VM Commands   | Tests | Passed |
+|-----------------------------------|
+| add              |     5 |      5 |
+| lt               |     2 |      2 |
+| not              |     2 |      2 |
+| return           |     1 |      1 |
+| goto             |     2 |      2 |
+| if-goto          |     2 |      2 |
+| label            |     4 |      4 |
+| call             |    67 |     67 |
+| function f 4     |     1 |      1 |
+| pop local 0      |     1 |      1 |
+| pop local 1      |     1 |      1 |
+| pop local 2+     |     6 |      6 |
+| pop pointer 1    |     2 |      2 |
+| pop temp 0       |     4 |      4 |
+| pop that 0       |     1 |      1 |
+| push constant 0  |     4 |      4 |
+| push constant 1  |     2 |      2 |
+| push constant 2+ |    60 |     60 |
+| push local 0     |     2 |      2 |
+| push local 1     |     4 |      4 |
+| push local 2+    |     8 |      8 |
+| push temp 0      |     1 |      1 |
+| push that 0      |     1 |      1 |
+|-----------------------------------|
+|      Totals      |   183 |    183 |
+|-----------------------------------|

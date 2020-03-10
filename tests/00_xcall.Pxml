@@ -1,0 +1,12 @@
+<vm-class>
+    <vm-function>
+        <command>function</command>
+        <label>a.b</label>
+        <number>0</number>
+    </vm-function>
+    <vm-function>
+        <command>call</command>
+        <label>x.z</label>
+        <number>0</number>
+    </vm-function>
+</vm-class>

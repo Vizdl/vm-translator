@@ -1,0 +1,756 @@
+function Coverage.ff5 5
+add
+add
+add
+add
+add
+and
+and
+and
+and
+and
+call Coverage.f8 0
+call Coverage.f8 0
+call Coverage.f8 1
+call Coverage.f8 1
+call Coverage.f8 2
+call Coverage.f8 2
+call Coverage.f8 3
+call Coverage.f8 3
+call Coverage.f8 4
+call Coverage.f8 4
+call Coverage.f8 5
+call Coverage.f8 5
+eq
+eq
+eq
+eq
+eq
+eq
+eq
+eq
+eq
+function Coverage.f1 1
+function Coverage.f10 10
+function Coverage.f2 2
+function Coverage.f3 3
+function Coverage.f35 35
+function Coverage.f4 4
+function Coverage.f5 5
+function Coverage.f6 6
+function Coverage.f7 7
+function Coverage.f8 8
+function Coverage.f9 9
+function Coverage.main 0
+gt
+gt
+gt
+gt
+gt
+gt
+gt
+gt
+gt
+if-goto y
+if-goto y
+if-goto y
+if-goto y
+if-goto y
+if-goto y
+if-goto y
+if-goto y
+if-goto y
+if-goto y
+if-goto y
+label x1
+label x2
+label x3
+label x4
+label x5
+label x6
+label x7
+label x8
+lt
+lt
+lt
+lt
+lt
+lt
+lt
+neg
+neg
+neg
+neg
+neg
+neg
+neg
+neg
+neg
+neg
+neg
+neg
+neg
+not
+not
+not
+not
+not
+not
+not
+not
+not
+not
+not
+not
+not
+or
+or
+or
+or
+or
+or
+or
+or
+or
+pop argument 0
+pop argument 0
+pop argument 0
+pop argument 0
+pop argument 0
+pop argument 0
+pop argument 1
+pop argument 1
+pop argument 1
+pop argument 1
+pop argument 1
+pop argument 1
+pop argument 10
+pop argument 10
+pop argument 10
+pop argument 10
+pop argument 10
+pop argument 10
+pop argument 2
+pop argument 2
+pop argument 2
+pop argument 2
+pop argument 2
+pop argument 2
+pop argument 3
+pop argument 3
+pop argument 3
+pop argument 3
+pop argument 3
+pop argument 3
+pop argument 4
+pop argument 4
+pop argument 4
+pop argument 4
+pop argument 4
+pop argument 4
+pop argument 56
+pop argument 56
+pop argument 56
+pop argument 56
+pop argument 56
+pop argument 56
+pop local 0
+pop local 0
+pop local 0
+pop local 0
+pop local 0
+pop local 0
+pop local 1
+pop local 1
+pop local 1
+pop local 1
+pop local 1
+pop local 1
+pop local 10
+pop local 10
+pop local 10
+pop local 10
+pop local 10
+pop local 10
+pop local 18
+pop local 18
+pop local 18
+pop local 18
+pop local 18
+pop local 18
+pop local 2
+pop local 2
+pop local 2
+pop local 2
+pop local 2
+pop local 2
+pop local 3
+pop local 3
+pop local 3
+pop local 3
+pop local 3
+pop local 3
+pop local 4
+pop local 4
+pop local 4
+pop local 4
+pop local 4
+pop local 4
+pop pointer 0
+pop pointer 0
+pop pointer 0
+pop pointer 0
+pop pointer 0
+pop pointer 0
+pop pointer 1
+pop pointer 1
+pop pointer 1
+pop pointer 1
+pop pointer 1
+pop pointer 1
+pop static 0
+pop static 0
+pop static 0
+pop static 0
+pop static 0
+pop static 0
+pop static 1
+pop static 1
+pop static 1
+pop static 1
+pop static 1
+pop static 1
+pop static 10
+pop static 10
+pop static 10
+pop static 10
+pop static 10
+pop static 10
+pop static 2
+pop static 2
+pop static 2
+pop static 2
+pop static 2
+pop static 2
+pop static 3
+pop static 3
+pop static 3
+pop static 3
+pop static 3
+pop static 3
+pop static 4
+pop static 4
+pop static 4
+pop static 4
+pop static 4
+pop static 4
+pop static 89
+pop static 89
+pop static 89
+pop static 89
+pop static 89
+pop static 89
+pop temp 0
+pop temp 0
+pop temp 0
+pop temp 0
+pop temp 0
+pop temp 0
+pop temp 1
+pop temp 1
+pop temp 1
+pop temp 1
+pop temp 1
+pop temp 1
+pop temp 2
+pop temp 2
+pop temp 2
+pop temp 2
+pop temp 2
+pop temp 2
+pop temp 3
+pop temp 3
+pop temp 3
+pop temp 3
+pop temp 3
+pop temp 3
+pop temp 4
+pop temp 4
+pop temp 4
+pop temp 4
+pop temp 4
+pop temp 4
+pop temp 5
+pop temp 5
+pop temp 5
+pop temp 5
+pop temp 5
+pop temp 5
+pop temp 6
+pop temp 6
+pop temp 6
+pop temp 6
+pop temp 6
+pop temp 6
+pop temp 7
+pop temp 7
+pop temp 7
+pop temp 7
+pop temp 7
+pop temp 7
+pop that 0
+pop that 0
+pop that 0
+pop that 0
+pop that 0
+pop that 0
+pop that 1
+pop that 1
+pop that 1
+pop that 1
+pop that 1
+pop that 1
+pop that 10
+pop that 10
+pop that 10
+pop that 10
+pop that 10
+pop that 10
+pop that 2
+pop that 2
+pop that 2
+pop that 2
+pop that 2
+pop that 2
+pop that 3
+pop that 3
+pop that 3
+pop that 3
+pop that 3
+pop that 3
+pop that 30
+pop that 30
+pop that 30
+pop that 30
+pop that 30
+pop that 30
+pop that 4
+pop that 4
+pop that 4
+pop that 4
+pop that 4
+pop that 4
+pop this 0
+pop this 0
+pop this 0
+pop this 0
+pop this 0
+pop this 0
+pop this 1
+pop this 1
+pop this 1
+pop this 1
+pop this 1
+pop this 1
+pop this 10
+pop this 10
+pop this 10
+pop this 10
+pop this 10
+pop this 10
+pop this 2
+pop this 2
+pop this 2
+pop this 2
+pop this 2
+pop this 2
+pop this 23
+pop this 23
+pop this 23
+pop this 23
+pop this 23
+pop this 23
+pop this 3
+pop this 3
+pop this 3
+pop this 3
+pop this 3
+pop this 3
+pop this 4
+pop this 4
+pop this 4
+pop this 4
+pop this 4
+pop this 4
+push argument 0
+push argument 0
+push argument 0
+push argument 0
+push argument 0
+push argument 0
+push argument 1
+push argument 1
+push argument 1
+push argument 1
+push argument 1
+push argument 1
+push argument 10
+push argument 10
+push argument 10
+push argument 10
+push argument 10
+push argument 10
+push argument 2
+push argument 2
+push argument 2
+push argument 2
+push argument 2
+push argument 2
+push argument 3
+push argument 3
+push argument 3
+push argument 3
+push argument 3
+push argument 3
+push argument 4
+push argument 4
+push argument 4
+push argument 4
+push argument 4
+push argument 4
+push argument 56
+push argument 56
+push argument 56
+push argument 56
+push argument 56
+push argument 56
+push constant 0
+push constant 0
+push constant 0
+push constant 0
+push constant 0
+push constant 0
+push constant 1
+push constant 1
+push constant 1
+push constant 1
+push constant 1
+push constant 1
+push constant 10000
+push constant 10000
+push constant 10000
+push constant 10000
+push constant 10000
+push constant 10000
+push constant 2
+push constant 2
+push constant 2
+push constant 2
+push constant 2
+push constant 2
+push constant 25116
+push constant 25116
+push constant 25116
+push constant 25116
+push constant 25116
+push constant 25116
+push constant 35
+push constant 35
+push constant 35
+push constant 35
+push constant 35
+push constant 35
+push constant 99
+push constant 99
+push constant 99
+push constant 99
+push constant 99
+push constant 99
+push local 0
+push local 0
+push local 0
+push local 0
+push local 0
+push local 0
+push local 1
+push local 1
+push local 1
+push local 1
+push local 1
+push local 1
+push local 10
+push local 10
+push local 10
+push local 10
+push local 10
+push local 10
+push local 18
+push local 18
+push local 18
+push local 18
+push local 18
+push local 18
+push local 2
+push local 2
+push local 2
+push local 2
+push local 2
+push local 2
+push local 3
+push local 3
+push local 3
+push local 3
+push local 3
+push local 3
+push local 4
+push local 4
+push local 4
+push local 4
+push local 4
+push local 4
+push pointer 0
+push pointer 0
+push pointer 0
+push pointer 0
+push pointer 0
+push pointer 0
+push pointer 1
+push pointer 1
+push pointer 1
+push pointer 1
+push pointer 1
+push pointer 1
+push static 0
+push static 0
+push static 0
+push static 0
+push static 0
+push static 0
+push static 1
+push static 1
+push static 1
+push static 1
+push static 1
+push static 1
+push static 10
+push static 10
+push static 10
+push static 10
+push static 10
+push static 10
+push static 2
+push static 2
+push static 2
+push static 2
+push static 2
+push static 2
+push static 3
+push static 3
+push static 3
+push static 3
+push static 3
+push static 3
+push static 4
+push static 4
+push static 4
+push static 4
+push static 4
+push static 4
+push static 89
+push static 89
+push static 89
+push static 89
+push static 89
+push static 89
+push temp 0
+push temp 0
+push temp 0
+push temp 0
+push temp 0
+push temp 0
+push temp 1
+push temp 1
+push temp 1
+push temp 1
+push temp 1
+push temp 1
+push temp 2
+push temp 2
+push temp 2
+push temp 2
+push temp 2
+push temp 2
+push temp 3
+push temp 3
+push temp 3
+push temp 3
+push temp 3
+push temp 3
+push temp 4
+push temp 4
+push temp 4
+push temp 4
+push temp 4
+push temp 4
+push temp 5
+push temp 5
+push temp 5
+push temp 5
+push temp 5
+push temp 5
+push temp 6
+push temp 6
+push temp 6
+push temp 6
+push temp 6
+push temp 6
+push temp 7
+push temp 7
+push temp 7
+push temp 7
+push temp 7
+push temp 7
+push that 0
+push that 0
+push that 0
+push that 0
+push that 0
+push that 0
+push that 1
+push that 1
+push that 1
+push that 1
+push that 1
+push that 1
+push that 10
+push that 10
+push that 10
+push that 10
+push that 10
+push that 10
+push that 2
+push that 2
+push that 2
+push that 2
+push that 2
+push that 2
+push that 3
+push that 3
+push that 3
+push that 3
+push that 3
+push that 3
+push that 30
+push that 30
+push that 30
+push that 30
+push that 30
+push that 30
+push that 4
+push that 4
+push that 4
+push that 4
+push that 4
+push that 4
+push this 0
+push this 0
+push this 0
+push this 0
+push this 0
+push this 0
+push this 1
+push this 1
+push this 1
+push this 1
+push this 1
+push this 1
+push this 10
+push this 10
+push this 10
+push this 10
+push this 10
+push this 10
+push this 2
+push this 2
+push this 2
+push this 2
+push this 2
+push this 2
+push this 23
+push this 23
+push this 23
+push this 23
+push this 23
+push this 23
+push this 3
+push this 3
+push this 3
+push this 3
+push this 3
+push this 3
+push this 4
+push this 4
+push this 4
+push this 4
+push this 4
+push this 4
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+return
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
+sub
